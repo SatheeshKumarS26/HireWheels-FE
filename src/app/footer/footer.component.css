@@ -1,0 +1,13 @@
+.cw-footer {
+  background: black;
+  color: white;
+}
+
+.cw-container {
+  width: 1170px !important;
+  margin: 0 auto;
+}
+
+.cw-links:hover {
+  color: red;
+}

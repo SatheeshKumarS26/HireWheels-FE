@@ -1,0 +1,19 @@
+.cw-login-title {
+  font-size: 18px;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+}
+
+.cw-forgot-pwd {
+  color: red;
+  margin-top: -18px;
+}
+
+.login-btn, .signup-container {
+  margin: 36px 0px;
+}
+
+.signup-font {
+  color: red;
+  padding-left: 5px;
+}

@@ -1,0 +1,20 @@
+<mat-toolbar>
+  <mat-toolbar-row class="cw-navbar">
+    <div>
+      <span>
+        <a>
+          <img src="assets/cw-dark.png" width="90" />
+        </a>
+      </span>
+    </div>
+    <span class="flex-spacing"></span>
+    <div fxLayoutAlign="center center">
+      <span class="material-icons cw-login-icon">
+        login
+      </span>
+      <a class="pl-5 login-font" (click)="openLoginDialog()">Login</a>
+      <p class="pl-5 f-16">or</p>
+      <a class="pl-5 login-font" (click)="openSignupDialog()">Signup</a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
